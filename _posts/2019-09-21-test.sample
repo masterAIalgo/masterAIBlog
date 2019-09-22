@@ -1,17 +1,18 @@
 ---
 layout:     post
-title:      Program language
-subtitle:   Python vs. C++
+title:      Python
+subtitle:   Course slides (5th)
 date:       2019-09-21
 author:     BY GS
 published: true
 header-img: image/rawa-sun-falling.jpg
 catalog: true
 tags:
-    - computer program language
+    - computer program
+    - Python
+
+ch5_url: https://docs.google.com/presentation/d/1HWmBYYAMOmn83BUyQFSCB_1rvf22gzCBrXXHKMAe0BM/edit?usp=sharing
+ch5_title: 5th course slide
 ---
 
-<h1> how to choose languae?</h1>
-<p><strong> how to choose language? </strong> </p>
-
-<p style=BLUE> Link </p> <a href="https://docs.google.com/presentation/d/1HWmBYYAMOmn83BUyQFSCB_1rvf22gzCBrXXHKMAe0BM/edit?usp=sharing"> LINK </a>
+<a href={{ page.ch5_url }}> <p style=BLUE>  {{ page.ch5_title }} </p></a>

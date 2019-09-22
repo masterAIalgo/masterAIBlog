@@ -5,21 +5,20 @@
     <description>积少成多，集腋成裘</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Sep 2019 23:11:26 +0800</pubDate>
-    <lastBuildDate>Sun, 22 Sep 2019 23:11:26 +0800</lastBuildDate>
+    <pubDate>Sun, 22 Sep 2019 23:36:37 +0800</pubDate>
+    <lastBuildDate>Sun, 22 Sep 2019 23:36:37 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Program language</title>
-        <description>&lt;h1&gt; how to choose languae?&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt; how to choose language? &lt;/strong&gt; &lt;/p&gt;
-
-&lt;p style=BLUE&gt; Link &lt;/p&gt; &lt;a href=&quot;https://docs.google.com/presentation/d/1HWmBYYAMOmn83BUyQFSCB_1rvf22gzCBrXXHKMAe0BM/edit?usp=sharing&quot;&gt; LINK &lt;/a&gt;</description>
+        <title>Python</title>
+        <description>&lt;a href=https://docs.google.com/presentation/d/1HWmBYYAMOmn83BUyQFSCB_1rvf22gzCBrXXHKMAe0BM/edit?usp=sharing&gt; &lt;p style=BLUE&gt;  5th course slide &lt;/p&gt;&lt;/a&gt;</description>
         <pubDate>Sat, 21 Sep 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/09/21/test/</link>
         <guid isPermaLink="true">http://localhost:4000/2019/09/21/test/</guid>
         
-        <category>computer program language</category>
+        <category>computer program</category>
+        
+        <category>Python</category>
         
         
       </item>
