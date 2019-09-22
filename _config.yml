@@ -1,11 +1,11 @@
 destination: docs
 
 # Site settings
-title: BY GS
+title: SHENG's Blog
 SEOTitle: 高升的博客| BY GS
 header-img: image/rawa-sun-falling3.jpg
 email: mediatechai2019@gmail.com
-description: "Every failure is leading towards success."
+description:  积少成多，集腋成裘
 keyword: "高升的博客, 高升，gaosheng, 机器学习，人工智能, AI, machine learning, speech recognition, nlp, data science "
 url: "http://masterAIalgo.github.io"          
 #baseurl:       # for example, '/blog' if your blog hosted on 'host/blog'
@@ -13,14 +13,14 @@ github_repo: "https://github.com/masterAIalgo/masterAIalgo.github.io.git" # you 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: “AI/ML researcher and developer. Data science. Ads optimizer for CTR, news recommendation"
+sidebar-about-description: AI/ML researcher and developer. Data science. Ads optimizer for CTR, news recommendation
 sidebar-avatar: /image/gs.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # SNS settings
 RSS: false
-linkedin_username:    'dlsheng' 
+linkedin_username:    dlsheng 
 github_username:    masterAIalgo
 
 
@@ -53,7 +53,7 @@ kramdown:
 
 # 评论系统
 #Disqus（https://disqus.com/）
-disqus_username: mediatechai
+disqus_username: masteraialgo-github-io
 disqus:
   enable: true    #是否开启Disqus评论
   username: masteraialgo-github-io
