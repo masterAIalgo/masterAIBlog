@@ -1,9 +1,31 @@
 ---
 title: Courses
 layout: default
-description: self-defined page 
+description: Coursus material
 header-img: "image/rawa-sun-falling.jpg"
+
+
+python_slides:
+    {
+	ch1_slides: "https://drive.google.com/open?id=1OrBzhXwrhItDqIoKJLjis01Mkd4vq9jA2S_VBz3-Obc", 
+	ch2_slides: "https://drive.google.com/open?id=188nQUWvvVuvD6OfQVzXRVxC0YJeA8NIXwzONZJzIDTU",
+	ch3_and_4_slides: "https://drive.google.com/open?id=1sK-XGxPSt8AHq9ziaix4x54R07tVyXsRAfHf9ITB44w",
+	ch5_slides: "https://drive.google.com/open?id=1HWmBYYAMOmn83BUyQFSCB_1rvf22gzCBrXXHKMAe0BM" 
+	}
+
+cplusplus_slides:
+    {
+	ch1_slides: "https://drive.google.com/open?id=1Oj_2YVifYq_tvkOCpfjPqfeCPcz8MFY8", 
+	ch2_slides: "https://drive.google.com/open?id=1J79LuSh6YmBRL8TzGhIK4MQ7VmQEWekc",
+	ch3_slides: "https://drive.google.com/open?id=1CAewDcOdNqrv1bFT1QivjyiZGvXxgWtZ",
+	ch4_slides: "https://drive.google.com/open?id=12-YwIrCP5eqGgaqAmCSKSKUqk12_Y7T2",
+	ch5_slides: "https://drive.google.com/open?id=1BJovViQgAqvSj5ttIp-Lg1TXa2SkKJfl", 
+	ch6_slides: "https://drive.google.com/open?id=1B9sZa8O4gh_akKZeam_3xZ-XrMdLEJGj",
+	ch7_slides: "https://drive.google.com/open?id=16qzz6bWno3oLSUFLso2Is3LVdStIJ85d"
+	}
+
 ---
+
 
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
@@ -19,52 +41,20 @@ header-img: "image/rawa-sun-falling.jpg"
     </div>
 </header>
 
+
 <!-- Main Content -->
 <div class="container">
-	<div class="row">
-		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
-				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
-				{% endfor %}
-			</div>
+	<ol> <h3><font color="blue"><u>Python course slides</u></font></h3>
+		{% for slide_url in page.python_slides %}
+		<li> <a href={{ slide_url[1] }}>{{ slide_url[0] }}</a></li>
+		{% endfor %}
+	</ol>
+</div>
 
-            <!--<blockquote class="tag-comments">
-                标签命名规范：
-                    <li>行业观察、职位、公司优先使用中文</li>
-                    <li>外国产品、术语优先使用英文</li>
-            </blockquote>-->
-
-            <!-- 标签列表 -->
-			{% for tag in site.tags %}
-			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}</span>
-                </span>
-				{% for post in tag[1] %}
-				  <!-- <li class="listing-item">
-				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-				  </li> -->
-				 <div class="post-preview">
-				    <a href="{{ post.url | prepend: site.baseurl }}">
-				        <h2 class="post-title">
-                            {{ post.title }}
-				        </h2>
-				        {% if post.subtitle %}
-				        <h3 class="post-subtitle">
-				            {{ post.subtitle }}
-				        </h3>
-				        {% endif %}
-				    </a>
-				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-				</div>
-				<hr>
-				{% endfor %}
-			</div>
-			{% endfor %}
-
-		</div>
-	</div>
+<div class="container">
+	<ol> <h3><font color="blue"><u>C++ course slides and sample codes</u></font></h3>
+		{% for slide_url in page.cplusplus_slides %}
+		<li> <a href={{ slide_url[1] }}>{{ slide_url[0] }}</a></li>
+		{% endfor %}
+	</ol>
 </div>
