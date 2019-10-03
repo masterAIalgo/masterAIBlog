@@ -3,10 +3,10 @@
   <channel>
     <title>Learning House by GS</title>
     <description>积少成多，集腋成裘</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Oct 2019 00:20:26 +0800</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2019 00:20:26 +0800</lastBuildDate>
+    <link>http://masterAIalgo.github.io/</link>
+    <atom:link href="http://masterAIalgo.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 03 Oct 2019 22:38:57 +0800</pubDate>
+    <lastBuildDate>Thu, 03 Oct 2019 22:38:57 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -32,8 +32,8 @@ to install node.js you need. Here I install latest version.&lt;/li&gt;
 &lt;/ol&gt;
 </description>
         <pubDate>Mon, 30 Sep 2019 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/javascript/node.js/2019/09/30/setup-javascript-env/</link>
-        <guid isPermaLink="true">http://localhost:4000/javascript/node.js/2019/09/30/setup-javascript-env/</guid>
+        <link>http://masterAIalgo.github.io/javascript/node.js/2019/09/30/setup-javascript-env/</link>
+        <guid isPermaLink="true">http://masterAIalgo.github.io/javascript/node.js/2019/09/30/setup-javascript-env/</guid>
         
         <category>computer program</category>
         
