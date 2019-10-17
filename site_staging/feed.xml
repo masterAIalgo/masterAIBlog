@@ -5,9 +5,38 @@
     <description>积少成多，集腋成裘</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Oct 2019 22:43:29 +0800</pubDate>
-    <lastBuildDate>Sun, 13 Oct 2019 22:43:29 +0800</lastBuildDate>
+    <pubDate>Thu, 17 Oct 2019 22:17:03 +0800</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2019 22:17:03 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Choose front-end program languages</title>
+        <description>&lt;p&gt;Notes on which program languages to learn for front-end develop
+start to learn front-end programming and start to quick catch proragm tutorials on &amp;lt;a href=”https://www.w3cschools.com&amp;gt; w3cschool&amp;lt;/a&amp;gt;`. 
+I prefer jquery + react + bootstrap.
+jquery: make js simple and popular functionality provided
+reat: dynamicaly render html
+bootstrap: css template.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 17 Oct 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/html/jquery/react/bootstrap/2019/10/17/front-end-programming/</link>
+        <guid isPermaLink="true">http://localhost:4000/html/jquery/react/bootstrap/2019/10/17/front-end-programming/</guid>
+        
+        <category>front-end develop</category>
+        
+        <category>javascript</category>
+        
+        
+        <category>html</category>
+        
+        <category>jquery</category>
+        
+        <category>react</category>
+        
+        <category>bootstrap</category>
+        
+      </item>
     
       <item>
         <title>How to export and import local modules in Javascript</title>

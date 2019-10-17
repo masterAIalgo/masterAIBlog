@@ -10,7 +10,7 @@
     <meta name="keywords"  content="高升的博客, 高升，gaosheng, 机器学习，人工智能, AI, machine learning, speech recognition, nlp, data science ">
     <meta name="theme-color" content="#000000">
     
-    <title>How to export and import local modules in Javascript - 高升的博客| BY GS</title>
+    <title>Choose front-end program languages - 高升的博客| BY GS</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -22,7 +22,7 @@
     <link rel="apple-touch-icon" href="/image/apple-touch-icon.png">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="http://localhost:4000/javascript/import/export/module/2019/10/05/import-local-module-javascript/">
+    <link rel="canonical" href="http://localhost:4000/html/jquery/react/bootstrap/2019/10/17/front-end-programming/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -178,21 +178,17 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/#computer program" title="computer program">computer program</a>
+                        <a class="tag" href="/tags/#front-end develop" title="front-end develop">front-end develop</a>
                         
                         <a class="tag" href="/tags/#javascript" title="javascript">javascript</a>
                         
-                        <a class="tag" href="/tags/#nvm" title="nvm">nvm</a>
-                        
-                        <a class="tag" href="/tags/#node.js" title="node.js">node.js</a>
-                        
                     </div>
-                    <h1>How to export and import local modules in Javascript</h1>
+                    <h1>Choose front-end program languages</h1>
                     
                     
                     <h2 class="subheading"></h2>
                     
-                    <span class="meta">Posted by BY GS on October 5, 2019</span>
+                    <span class="meta">Posted by BY GS on October 17, 2019</span>
                 </div>
             </div>
         </div>
@@ -210,27 +206,12 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-				<h3> Export and import local modules in Javascript </h3>
-<p>A lot of examples teach you how to import modules in html. But how do you import own-coded modules in JS file? Here is a simple example showing you how to do. More info refer to
-<a href="https://www.tutorialsteacher.com/nodejs/nodejs-local-modules">JS local modules</a>. 
-Main module <em>test.js</em> imports functions from demo_module.js, which is in the same folder as test.js</p>
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">mymodule</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'./demo_module.js'</span><span class="p">);</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">mymodule</span><span class="p">.</span><span class="nx">square</span><span class="p">(</span><span class="mi">11</span><span class="p">));</span>
-<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">mymodule</span><span class="p">.</span><span class="nx">diag</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">));</span></code></pre></figure>
-
-<p>In <em>demo_module.js</em>, export your modules </p>
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">sqrt</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">sqrt</span><span class="p">;</span>
-<span class="kd">function</span> <span class="nx">square</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="nx">x</span><span class="o">*</span><span class="nx">x</span><span class="p">;</span>
-<span class="p">}</span>
-<span class="kd">function</span> <span class="nx">diag</span><span class="p">(</span><span class="nx">x</span><span class="p">,</span> <span class="nx">y</span><span class="p">)</span> <span class="p">{</span>
-    <span class="kd">let</span> <span class="nx">v</span> <span class="o">=</span> <span class="nb">Math</span><span class="p">.</span><span class="nx">sqrt</span><span class="p">(</span><span class="nx">square</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="o">+</span> <span class="nx">square</span><span class="p">(</span><span class="nx">y</span><span class="p">));</span>
-    <span class="k">return</span> <span class="nx">v</span><span class="p">;</span>
-<span class="p">};</span>
-<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span><span class="p">.</span><span class="nx">diag</span> <span class="o">=</span> <span class="nx">diag</span><span class="p">;</span>
-<span class="nx">module</span><span class="p">.</span><span class="nx">exports</span><span class="p">.</span><span class="nx">square</span> <span class="o">=</span> <span class="nx">square</span><span class="p">;</span></code></pre></figure>
+				<p>Notes on which program languages to learn for front-end develop
+start to learn front-end programming and start to quick catch proragm tutorials on &lt;a href=”https://www.w3cschools.com&gt; w3cschool&lt;/a&gt;`. 
+I prefer jquery + react + bootstrap.
+jquery: make js simple and popular functionality provided
+reat: dynamicaly render html
+bootstrap: css template.</p>
 
 
 
@@ -239,19 +220,12 @@ Main module <em>test.js</em> imports functions from demo_module.js, which is in 
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/javascript/node.js/2019/09/30/setup-javascript-env/" data-toggle="tooltip" data-placement="top" title="How to setup javascript dvelopment environment in Ubuntu">
+                        <a href="/javascript/import/export/module/2019/10/05/import-local-module-javascript/" data-toggle="tooltip" data-placement="top" title="How to export and import local modules in Javascript">
                         Previous<br>
-                        <span>How to setup javascript dvelopment environment in Ubuntu</span>
+                        <span>How to export and import local modules in Javascript</span>
                         </a>
                     </li>
                     
-                    
-                    <li class="next">
-                        <a href="/html/jquery/react/bootstrap/2019/10/17/front-end-programming/" data-toggle="tooltip" data-placement="top" title="Choose front-end program languages">
-                        Next<br>
-                        <span>Choose front-end program languages</span>
-                        </a>
-                    </li>
                     
                 </ul>
 
@@ -371,8 +345,8 @@ Main module <em>test.js</em> imports functions from demo_module.js, which is in 
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "masteraialgo-github-io";
-    var disqus_identifier = "/javascript/import/export/module/2019/10/05/import-local-module-javascript";
-    var disqus_url = "http://localhost:4000/javascript/import/export/module/2019/10/05/import-local-module-javascript/";
+    var disqus_identifier = "/html/jquery/react/bootstrap/2019/10/17/front-end-programming";
+    var disqus_url = "http://localhost:4000/html/jquery/react/bootstrap/2019/10/17/front-end-programming/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
