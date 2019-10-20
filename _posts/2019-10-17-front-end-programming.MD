@@ -10,10 +10,11 @@ categories: [html, jquery, react, bootstrap]
 tags: [front-end develop, javascript]
 ---
 
-Notes on which program languages to learn for front-end develop
-start to learn front-end programming and start to quick catch proragm tutorials on <a href="https://www.w3cschools.com> w3cschool</a>`. 
-I prefer jquery + react + bootstrap.
-jquery: make js simple and popular functionality provided
-reat: dynamicaly render html
-bootstrap: css template.
+<h3> Notes on which program languages to learn for front-end develop</h3>
+<p> Start to learn front-end programming and start to quick catch proragm tutorials on <a href="https://www.w3cschools.com"> w3cschool</a></p> 
+<ol>I prefer jquery + react + bootstrap.
+<li>jquery: make js simple and popular functionality provided</li>
+<li>reat: dynamicaly render html</li>
+<li>bootstrap: css template.</li>
+<ol>
 

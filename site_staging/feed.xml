@@ -5,19 +5,21 @@
     <description>积少成多，集腋成裘</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Oct 2019 22:17:03 +0800</pubDate>
-    <lastBuildDate>Thu, 17 Oct 2019 22:17:03 +0800</lastBuildDate>
+    <pubDate>Sun, 20 Oct 2019 16:08:24 +0800</pubDate>
+    <lastBuildDate>Sun, 20 Oct 2019 16:08:24 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Choose front-end program languages</title>
-        <description>&lt;p&gt;Notes on which program languages to learn for front-end develop
-start to learn front-end programming and start to quick catch proragm tutorials on &amp;lt;a href=”https://www.w3cschools.com&amp;gt; w3cschool&amp;lt;/a&amp;gt;`. 
-I prefer jquery + react + bootstrap.
-jquery: make js simple and popular functionality provided
-reat: dynamicaly render html
-bootstrap: css template.&lt;/p&gt;
+        <description>&lt;h3&gt; Notes on which program languages to learn for front-end develop&lt;/h3&gt;
+&lt;p&gt; Start to learn front-end programming and start to quick catch proragm tutorials on &lt;a href=&quot;https://www.w3cschools.com&quot;&gt; w3cschool&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;I prefer jquery + react + bootstrap.
+&lt;li&gt;jquery: make js simple and popular functionality provided&lt;/li&gt;
+&lt;li&gt;reat: dynamicaly render html&lt;/li&gt;
+&lt;li&gt;bootstrap: css template.&lt;/li&gt;
+&lt;ol&gt;
 
+&lt;/ol&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 17 Oct 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/html/jquery/react/bootstrap/2019/10/17/front-end-programming/</link>
