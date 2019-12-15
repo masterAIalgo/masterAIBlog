@@ -5,9 +5,35 @@
     <description>积少成多，集腋成裘</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Dec 2019 11:53:00 +0800</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2019 11:53:00 +0800</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2019 12:03:09 +0800</pubDate>
+    <lastBuildDate>Sun, 15 Dec 2019 12:03:09 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>install pygraphviz in virtual environment using Pipenv</title>
+        <description>&lt;h3&gt;Install pygraphviz to draw graph&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt; install graphviz:&lt;strong&gt; sudo apt-get install graphviz libgraphviz-dev&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt; install pygraphviz: &lt;strong&gt;pipenv install pygraphviz&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Sun, 15 Dec 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/12/15/install-pygraphviz/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/15/install-pygraphviz/</guid>
+        
+        <category>Pipenv</category>
+        
+        <category>graphviz</category>
+        
+        <category>pygraphviz</category>
+        
+        <category>Python</category>
+        
+        <category>graph</category>
+        
+        
+      </item>
     
       <item>
         <title>install jupyter in virtual environment using Pipenv</title>
