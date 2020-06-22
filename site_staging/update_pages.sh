@@ -1,3 +1,5 @@
+ bundle exec jekyll build
+
 echo "delete files in docs"
 rm -rf docs/*
 
